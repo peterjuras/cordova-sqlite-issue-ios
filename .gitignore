@@ -1,0 +1,32 @@
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+
+# NPM log file
+npm-debug.log
+
+# Vagrant
+.vagrant
+vagrant_apk
+
+# Cordova
+android_apk/*
+!android_apk/empty
+hooks
+platforms
+plugins
+output/*
+
+
+# Mac OS X
+.DS_Store
+
+# editor files
+.vscode/
+jsconfig.json
+.sublime-gulp.cache
+sublime-gulp.log
+.idea/
+
+# Documentation
+docs
